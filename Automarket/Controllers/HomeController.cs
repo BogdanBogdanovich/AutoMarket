@@ -24,7 +24,7 @@ public class HomeController : Controller
         return View(car);
     }*/
     [HttpGet]
-    public async Task<IActionResult> Index(Car car)
+    public Task<IActionResult> Index(Car car)
         {
             /*Car car1 = new Car()
             {
@@ -32,7 +32,7 @@ public class HomeController : Controller
                 Speed = 200
             };*/
             car.Name = "Alex";
-            return View(car);
+            return Task.FromResult<IActionResult>(View(car));
         }
 
     public IActionResult Privacy()
