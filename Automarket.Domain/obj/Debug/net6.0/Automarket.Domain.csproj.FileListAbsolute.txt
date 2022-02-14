@@ -1,0 +1,12 @@
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\bin\Debug\net6.0\Automarket.Domain.deps.json
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\bin\Debug\net6.0\Automarket.Domain.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\bin\Debug\net6.0\ref\Automarket.Domain.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\bin\Debug\net6.0\Automarket.Domain.pdb
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.csproj.AssemblyReference.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.AssemblyInfoInputs.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.AssemblyInfo.cs
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\ref\Automarket.Domain.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.Domain\obj\Debug\net6.0\Automarket.Domain.pdb

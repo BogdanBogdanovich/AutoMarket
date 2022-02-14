@@ -1,0 +1,55 @@
+@{
+ViewData["Title"] = "Home Testing";
+}
+
+<div style="padding: 30px;"></div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card h-100">
+            <img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/all-models/5-series/sedan/2020/Di22_THE5_ForSite_(1680%D1%85756)_QR_P_1.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1599573981678.jpg" class="card-img card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center text-white">BMW 5</h5>
+                <p class="card-text text-white">BMW 5 серии воплощает собой современный седан бизнес-класса.</p>
+            </div>
+            <div class="card-footer">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link text-center" @*asp-controller="Login" asp-action="Register"*@>Создать юзера</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="https://images.wallpaperscraft.ru/image/abstraktsiya_forma_ostrie_figurka_101902_1920x1080.jpg" class="card-img card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center text-white">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link text-center" @*asp-controller="Account" asp-action="GetAllUsers"*@>Список пользователей</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="https://images.wallpaperscraft.ru/image/abstraktsiia_raznotsvetnyj_svechenie_142211_1920x1080.jpg" class="card-img card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center text-white">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link text-center" @*asp-controller="Account" asp-action="GetUser"*@>Посмотреть юзера</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        background-color: darkolivegreen;
+    }
+</style>
