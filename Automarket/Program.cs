@@ -1,8 +1,20 @@
+using Automarket.DAL;
+using Automarket.DAL.Interfaces;
+using Automarket.DAL.Repositories;
+using Automarket.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+var connection = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options => 
+    options.UseSqlServer(connection));
+
+builder.Services.AddScoped<ICarRepository, CarRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,6 +30,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
