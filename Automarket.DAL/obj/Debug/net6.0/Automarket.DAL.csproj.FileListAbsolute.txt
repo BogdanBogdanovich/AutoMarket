@@ -1,0 +1,15 @@
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\Automarket.DAL.deps.json
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\Automarket.DAL.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\ref\Automarket.DAL.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\Automarket.DAL.pdb
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\Automarket.Domain.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\bin\Debug\net6.0\Automarket.Domain.pdb
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.csproj.AssemblyReference.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.AssemblyInfoInputs.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.AssemblyInfo.cs
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.csproj.CopyComplete
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\ref\Automarket.DAL.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket.DAL\obj\Debug\net6.0\Automarket.DAL.pdb

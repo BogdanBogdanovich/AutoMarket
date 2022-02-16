@@ -4,6 +4,7 @@ using Automarket.DAL.Repositories;
 using Automarket.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
