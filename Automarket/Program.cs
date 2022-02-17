@@ -1,7 +1,11 @@
 using Automarket.DAL;
 using Automarket.DAL.Interfaces;
 using Automarket.DAL.Repositories;
+using Automarket.Domain.Entity;
+using Automarket.Domain.Response;
 using Automarket.Models;
+using Automarket.Service.Implementations;
+using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
@@ -16,6 +20,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connection));
 
 builder.Services.AddScoped<ICarRepository, CarRepository>();
+builder.Services.AddScoped<ICarService, CarService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

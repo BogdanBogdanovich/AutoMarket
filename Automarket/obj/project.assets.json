@@ -618,6 +618,20 @@
         "runtime": {
           "bin/placeholder/Automarket.Domain.dll": {}
         }
+      },
+      "Automarket.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Automarket.DAL": "1.0.0",
+          "Automarket.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Automarket.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Automarket.Service.dll": {}
+        }
       }
     }
   },
@@ -1792,12 +1806,18 @@
       "type": "project",
       "path": "../Automarket.Domain/Automarket.Domain.csproj",
       "msbuildProject": "../Automarket.Domain/Automarket.Domain.csproj"
+    },
+    "Automarket.Service/1.0.0": {
+      "type": "project",
+      "path": "../Automarket.Service/Automarket.Service.csproj",
+      "msbuildProject": "../Automarket.Service/Automarket.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Automarket.DAL >= 1.0.0",
       "Automarket.Domain >= 1.0.0",
+      "Automarket.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2"
     ]
   },
@@ -1833,6 +1853,9 @@
             },
             "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
               "projectPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
+            },
+            "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
+              "projectPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\Automarket\\Automarket.Service\\Automarket.Service.csproj"
             }
           }
         }

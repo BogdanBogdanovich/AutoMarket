@@ -61,3 +61,5 @@ C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\D
 C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\Debug\net6.0\Automarket.DAL.dll
 C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\Debug\net6.0\Automarket.DAL.pdb
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\Debug\net6.0\Automarket.Service.dll
+C:\Users\Фарид\OneDrive\Рабочий стол\Automarket\Automarket\bin\Debug\net6.0\Automarket.Service.pdb

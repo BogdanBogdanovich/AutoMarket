@@ -1,0 +1,14 @@
+@model Automarket.Domain.Entity.Car
+
+
+@{
+    ViewData["Title"] = "Вывод одной машины по имени";
+    Layout = "_Layout";
+}
+
+<p>@Model.Name</p>
+<p>@Model.Description</p>
+<p>@Model.Model</p>
+<p>@Model.Speed</p>
+<p>@Model.Price</p>
+<p>@Model.DateCreate</p>

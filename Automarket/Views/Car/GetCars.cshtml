@@ -1,0 +1,17 @@
+@model IEnumerable<Automarket.Domain.Entity.Car>
+
+
+@{
+    ViewData["Title"] = "Вывод машин";
+    Layout = "_Layout";
+}
+
+@foreach (var cars in Model)
+{
+    <p>@cars.Name</p>
+    <p>@cars.Description</p>
+    <p>@cars.Model</p>
+    <p>@cars.Speed</p>
+    <p>@cars.Price</p>
+    <p>@cars.DateCreate</p>
+}
