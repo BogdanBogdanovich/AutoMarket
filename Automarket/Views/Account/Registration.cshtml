@@ -1,12 +1,13 @@
+@model Automarket.Domain.Entity.User
 @{
-ViewData["Title"] = "Registration";
+ViewData["Title"] = "Регистрация";
 }
 <div style="padding: 30px;"></div>
 <div class="align-content-center">
     <h2>Регистрация</h2>
 </div>
-<div class="align-content-lg-center">
-    <form>
+<div class="form-control">
+    <form method="post" action="Registration">
         <div>
             <div>
                 <input placeholder="Имя" name="name" type="text" aria-required="true" aria-invalid="false"/>
@@ -21,13 +22,13 @@ ViewData["Title"] = "Registration";
                 <input placeholder="Почта" name="email" type="text" aria-required="true" aria-invalid="false"/>
             </div>
             <div>
-                <input placeholder="Пароль" name="password" type="text" aria-required="true" aria-invalid="false"/>
+                <input placeholder="Пароль" name="password" type="password" aria-required="true" aria-invalid="false"/>
             </div>
             <div>
-                <input placeholder="Повторите пароль" name="repaitpass" type="text" aria-required="true" aria-invalid="false"/>
+                <input placeholder="Повторите пароль" name="repaitpass" type="password" aria-required="true" aria-invalid="false"/>
             </div>
             <div>
-                <button type="button">
+                <button type="submit">
                     <span>Зарегистрироваться</span>
                 </button>
             </div>

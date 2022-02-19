@@ -11,4 +11,5 @@ public class ApplicationDbContext : DbContext
     }
     
     public DbSet<Car> Car { get; set; }
+    public DbSet<User> User { get; set; }
 }

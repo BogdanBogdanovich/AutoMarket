@@ -16,4 +16,5 @@ public interface IBaseResponse<T>
 {
     T Data { get; set; }
     StatusCode StatusCode { get; set; }
+    string Description { get; set; }
 }

@@ -26,7 +26,7 @@ public class CarController : Controller
         }
         return RedirectToAction();
     }
-    
+    [HttpGet]
     public async Task<IActionResult> GetCar()
     {
         var response = await _carService.GetByName("Mercedes-Benz");

@@ -1,14 +1,26 @@
+@model Automarket.Domain.Entity.User
 @{
-    ViewData["Title"] = "Home Testing";
+    ViewData["Title"] = "Авторизация";
 }
-
 <div style="padding: 30px;"></div>
 <div class="align-content-center">
     <h2>Вход</h2>
 </div>
-<div class="align-content-center">
-    <form>
-        
+<div class="align-content-lg-center">
+    <form method="post" action="Authorization">
+        <div>
+            <div>
+                <input placeholder="Почта" name="email" type="text" aria-required="true" aria-invalid="false"/>
+            </div>
+            <div>
+                <input placeholder="Пароль" name="password" type="password" aria-required="true" aria-invalid="false"/>
+            </div>
+            <div>
+                <button type="submit">
+                    <span>Войти</span>
+                </button>
+            </div>
+        </div>
     </form>
 </div>
 
