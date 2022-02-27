@@ -3,20 +3,23 @@
     ViewData["Title"] = "Авторизация";
 }
 <div style="padding: 30px;"></div>
-<div class="align-content-center">
+<div align="center">
     <h2>Вход</h2>
 </div>
-<div class="align-content-lg-center">
+<p/>
+<div align="center">
     <form method="post" action="Authorization">
         <div>
             <div>
                 <input placeholder="Почта" name="email" type="text" aria-required="true" aria-invalid="false"/>
             </div>
+            <p/>
             <div>
                 <input placeholder="Пароль" name="password" type="password" aria-required="true" aria-invalid="false"/>
             </div>
+            <p/>
             <div>
-                <button type="submit">
+                <button  class="green" type="submit">
                     <span>Войти</span>
                 </button>
             </div>
